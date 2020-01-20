@@ -12,14 +12,12 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "react-table": "^7.0.0-rc.15",
     "styled-components": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
-   
   },
   "eslintConfig": {
     "extends": "react-app"
