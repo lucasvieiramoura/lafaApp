@@ -4,7 +4,6 @@ const cors = require ('cors')
 
 const db = require('./db')
 const movieRouter = require('./routes/movie-router')
-const userRouter = require('./routes/user-router')
 
 const app = express()
 const apiPort = 8000
@@ -20,6 +19,5 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api', movieRouter)
-app.use('/api', userRouter)
 
 app.listen(apiPort, () => console.log(`Server runing os port ${apiPort}`))
